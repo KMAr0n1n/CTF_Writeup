@@ -25,6 +25,7 @@ Khi truy cập vào chall, ta sẽ thấy 1 website có 1 đống ô màu đen g
 => nếu nhập đúng chữ cái ở vị trí tương ứng trong flag thì ô màu đen có vị trí == vị trí chữ cái đã nhập sẽ hiển thị ra chữ cái đó.
 Vậy thì chỉ ta sẽ sử dụng bruteforce.
 Script python:
+
 ```
 import requests
 import string
@@ -48,5 +49,4 @@ while True:
             print(f"\rFLAG={FLAG}",end='')
             break
 ```
-<br>
-<code>Flag: shctf{2_explor3_fronti3r}</code>
+`Flag: shctf{2_explor3_fronti3r}`
