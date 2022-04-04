@@ -26,7 +26,7 @@ Khi truy cập vào chall, ta sẽ thấy 1 website có 1 đống ô màu đen g
 Vậy thì chỉ ta sẽ sử dụng bruteforce.
 Script python:
 
-```
+```python
 import requests
 import string
 import re
